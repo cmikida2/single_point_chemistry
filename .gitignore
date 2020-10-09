@@ -1,0 +1,37 @@
+# PyJac-generated chemistry files
+mechanism.hpp
+chem_utils.cpp
+chem_utils.hpp
+jacobian.cpp
+jacobian.hpp
+jacobian_main.cpp
+jacobian_main.hpp
+jacobian_driver.cpp
+jacobian_driver.hpp
+species_rates.cpp
+species_rates.hpp
+memcpy_2d.hpp
+read_initial_conditions.cpp
+read_initial_conditions.hpp
+error_check.cpp
+error_check.hpp
+vectorization.hpp
+write_data.hpp
+timer.cpp
+timer.hpp
+# Leap-generated time integration files
+LeapIMEXMethod.H
+LeapMRIMEXMethod.H
+# Executables
+test_leap_imex
+test_rk4
+*.o
+# Analysis output
+*.png
+*.txt
+# Misc
+__pycache__
+callgen.pickle
+readgen.pickle
+info.log
+errors.log
