@@ -24,11 +24,13 @@ LeapIMEXMethod.H
 LeapMRIMEXMethod.H
 # Executables
 test_leap_imex
+test_leap_mr_imex
 test_rk4
+test_trap
 *.o
 # Analysis output
 *.png
-*.txt
+Output/
 # Misc
 __pycache__
 callgen.pickle
